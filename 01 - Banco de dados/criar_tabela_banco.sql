@@ -2,7 +2,6 @@
 -- Please log an issue at https://github.com/pgadmin-org/pgadmin4/issues/new/choose if you find any bugs, including reproduction steps.
 BEGIN;
 
-
 CREATE TABLE IF NOT EXISTS public.netflix_titles
 (
     show_id text COLLATE pg_catalog."default" NOT NULL,
@@ -18,4 +17,5 @@ CREATE TABLE IF NOT EXISTS public.netflix_titles
     listed_in text COLLATE pg_catalog."default" NOT NULL,
     description text COLLATE pg_catalog."default" NOT NULL
 );
+
 END;
